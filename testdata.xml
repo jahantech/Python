@@ -1,0 +1,14 @@
+<data>
+    <items>
+        <item>
+		<name>TV</name>
+		<model>TVx86</model>
+		<price>300.00</price>
+	</item>
+	<item>
+		<name>Fridge</name>
+		<model>FRIDGEx64</model>
+		<price>200.0</price>
+	</item>
+    </items>
+</data>
