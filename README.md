@@ -39,4 +39,17 @@ Model :  FRIDGEx64
 Price :  200.0
 ******************
 ```
+* Daemon written in python that prints CPU usage after 10 seconds. Ofcourse you can modify the script to send these stats to elasticsearch or influxdb and use the data to graph it. (Note you will need psutil and daemon module for this)
+```
+Usage:
+./py_daemon_cpustats.py start (To start the daemon)
+./py_daemon_cpustats.py stop (To stop the daemon)
+Output:
+[root@testserver Python]# ./py_daemon_cpustats.py start
+[root@testserver Python]# started with pid 10546
+CPU Stats:
+71.4
+[root@testserver Python]# ./py_daemon_cpustats.py stop
+Terminating on signal 15
+```
 * Script to identify key frames in an avi file and save them to disk (idea is to find key frames from a video and use them to compile a gif): video_to_gif.py
