@@ -3,6 +3,12 @@ This repo contains useful python scripts that can prove to be very useful for ge
 
 List of scripts:
 * Script to connect to MySQL database and get result for select query: db_access.py
+```
+Usage: 
+./db_access.py 
+Output:
+TestUser1 First test user
+```
 * Script to list files in a given directory: list_files.py
 * Script to read json from testdata.json file and print data from it: read_json.py
 * Script to read xml from testdata.xml file and print data from it: read_xml.py
