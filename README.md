@@ -39,6 +39,13 @@ Model :  FRIDGEx64
 Price :  200.0
 ******************
 ```
+* Script to insert data into MySQL table: mysql_db_insert.py
+```
+Usage:
+./mysql_db_insert.py
+Output:
+Inserting value
+```
 * Daemon written in python that prints CPU usage after 10 seconds. Ofcourse you can modify the script to send these stats to elasticsearch or influxdb and use the data to graph it. (Note you will need psutil and daemon module for this)
 ```
 Usage:
