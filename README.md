@@ -59,11 +59,20 @@ CPU Stats:
 [root@testserver Python]# ./py_daemon_cpustats.py stop
 Terminating on signal 15
 ```
-* Functio to write to a log file, can prove to useful in scripts where you need to log information or status codes: write_to_log_file.py
+* Function to write to a log file, can prove to useful in scripts where you need to log information or status codes: write_to_log_file.py
 ```
 Usage:
 ./write_to_log_file.py
 Output:
 Script will write to python_log.txt
+```
+* Script to connect to local redis server and add/get key value from it, you will need python redis module installed for this: redis_connect.py
+```
+Usage:
+./redis_connect.py
+Output:
+Key Value added successfully
+Redis is good!
+None
 ```
 * Script to identify key frames in an avi file and save them to disk (idea is to find key frames from a video and use them to compile a gif): video_to_gif.py
