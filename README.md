@@ -75,4 +75,11 @@ Key Value added successfully
 Redis is good!
 None
 ```
+* Script to get content from a webpage or an api endpoint (GET): get_content_url.py
+```
+Usage:
+./get_content_url.py
+Output:
+Content from webpage
+```
 * Script to identify key frames in an avi file and save them to disk (idea is to find key frames from a video and use them to compile a gif): video_to_gif.py
